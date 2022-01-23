@@ -12,12 +12,7 @@ const cooldowns = new Discord.Collection();
 const talkedRecently = new Map();
 
 // Token, Prefix, and Owner ID
-const config = require("./config.json")
-{
-    "token": "OTM0ODgyNDE2NjEzNTM1ODI1.Ye2jGQ.vprCdv9EGxUbsoJ5kpUY1i8VeJU",
-    "ownerID": "810640541925900368",
-    "prefix": "-"
-}
+const config = require("config.json")
 
 // Events
 client.login(config.token) 
