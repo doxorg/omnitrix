@@ -172,3 +172,9 @@ client.on("message", message => {
              member.roles.add(roles.roleID);
             }}
 })
+
+{
+    "token": "OTM0ODgyNDE2NjEzNTM1ODI1.Ye2jGQ.vprCdv9EGxUbsoJ5kpUY1i8VeJU",
+    "ownerID": "810640541925900368",
+    "prefix": "-"
+}
